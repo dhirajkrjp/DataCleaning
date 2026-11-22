@@ -6,7 +6,7 @@ You can configure `cleaner.py` to automatically create a `Logs` folder inside `C
 2. **Executive Header & Run Metadata:** Records the exact timestamp, input/output file paths, active flags (`--auto-fix`, `--drop-duplicates`, `--drop-na`), and execution duration.
 3. **Structured Sections for Easy Reading:**
 * **Executive Summary Table** (counts and percentages of Accepted, Auto-Repaired, Duplicates, Blank Rows, and Invalid Rows).
-* **Section 1: Removed & Quarantined Rows (`[REJECTED]`)** — grouped together so you can immediately audit every dropped row and its exact failure reason.
+* **Section 1: Removed & Quarantined Rows (`[REJECTED]`)** — grouped so you can immediately audit every dropped row and its exact failure reason.
 * **Section 2: Auto-Repaired & Accepted Rows (`[REPAIRED]`)** — shows every field transformation (`old -> new`) cleanly aligned.
 * **Section 3: Clean Accepted Rows (`[ACCEPTED]`)** — lists rows that passed validation without changes.
 
